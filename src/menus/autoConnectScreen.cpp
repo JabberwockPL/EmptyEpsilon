@@ -271,8 +271,8 @@ AutoConnectPosition::AutoConnectPosition(string value)
                 continue;
             }
 
-            pos -= 1;  // Shift for legacy compatibility
             if (pos < 0) pos = 0;
+            pos -= 1;
             if (pos > static_cast<int>(CrewPosition::MAX)) pos = static_cast<int>(CrewPosition::MAX);
             crew_position = CrewPosition(pos);
         }
