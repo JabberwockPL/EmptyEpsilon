@@ -85,7 +85,7 @@ void VelocityInfoDisplay::onUpdate()
     setVisible(physics);
     if (physics) {
         float velocity = glm::length(physics->getVelocity()) / 1000 * 60;
-        setValue(tr("{value} {unit}/min").format({{"value", string(velocity, 1)}, {"unit", DISTANCE_UNIT_1K}}));
+        setValue(tr("{value}{unit}/min").format({{"value", string(velocity, 1)}, {"unit", DISTANCE_UNIT_1K}}));
     }
 }
 
