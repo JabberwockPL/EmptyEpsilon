@@ -18,8 +18,8 @@ GuiImpulseControls::GuiImpulseControls(GuiContainer* owner, string id)
     });
     slider->addSnapValue(0.0, 0.1)->setPosition(0, 0, sp::Alignment::TopLeft)->setSize(50, GuiElement::GuiSizeMax);
 
-    label = new GuiKeyValueDisplay(this, id, 0.5, tr("slider", "Impulse"), "0%");
-    label->setTextSize(30)->setPosition(80, 0, sp::Alignment::TopLeft)->setSize(40, GuiElement::GuiSizeMax);
+    label = new GuiKeyValueDisplay(this, id, 0.7, tr("slider", "Impulse"), "0%");
+    label->setTextSize(30)->setPosition(50, 0, sp::Alignment::TopLeft)->setSize(40, GuiElement::GuiSizeMax);
 
     (new GuiPowerDamageIndicator(this, id + "_DPI", ShipSystem::Type::Impulse, sp::Alignment::TopCenter))->setSize(50, GuiElement::GuiSizeMax);
 }
