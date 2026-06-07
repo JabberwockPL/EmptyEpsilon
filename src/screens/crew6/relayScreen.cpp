@@ -117,7 +117,7 @@ RelayScreen::RelayScreen(GuiContainer* owner, bool allow_comms)
         radar->setViewPosition(transform->getPosition());
 
     auto sidebar = new GuiElement(this, "SIDE_BAR");
-    sidebar->setPosition(-20, 150, sp::Alignment::TopRight)->setSize(250, GuiElement::GuiSizeMax)->setAttribute("layout", "vertical");
+    sidebar->setPosition(-20, 150, sp::Alignment::TopRight)->setSize(300, GuiElement::GuiSizeMax)->setAttribute("layout", "vertical");
 
     info_callsign = new GuiKeyValueDisplay(sidebar, "SCIENCE_CALLSIGN", 0.4, tr("Callsign"), "");
     info_callsign->setSize(GuiElement::GuiSizeMax, 30);
