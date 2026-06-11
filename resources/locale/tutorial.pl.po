@@ -1,0 +1,610 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Empty Epsilon\n"
+"POT-Creation-Date: 2020-03-10 21:36+0100\n"
+"PO-Revision-Date: 2026-06-07 19:36+0200\n"
+"Last-Translator: muerteFR\n"
+"Language-Team: muerteFR\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+
+#: scripts/tutorial/00_all.lua:28
+msgid ""
+"This is the main screen, which displays your ship and the surrounding "
+"space.\n"
+"While you cannot move the ship from this screen, you can use it to visually "
+"identify objects."
+msgstr "To ekran główny, który pokazuje wasz okręt i otaczającą go przestrzeń.\nChociaż z tego ekranu nie da się sterować okrętem, może on służyć do wizualnej identyfikacji obiektów."
+
+#: scripts/tutorial/00_all.lua:33
+msgid ""
+"Welcome to the long-range radar. This radar can detect objects up to 30u "
+"from your ship, depicted at the radar's center. This radar allows you to "
+"quickly identify distant objects."
+msgstr "Oto radar dalekiego zasięgu. Radar ten może wykrywać obiekty w odległości do 30 u od okrętu, pokazanego na środku radaru. Radar ten pozwala szybko identyfikować odległe obiekty."
+
+#: scripts/tutorial/00_all.lua:35
+msgid ""
+"To the right of your ship is a brown dot. This is an asteroid.\n"
+"Asteroid impacts will damage your ship, so avoid hitting them."
+msgstr "Po prawej stronie okrętu widać brązową kropkę. To asteroida.\nZderzenie z asteroidą może spowodować uszkodzenie okrętu, więc należy ich unikać."
+
+#: scripts/tutorial/00_all.lua:39
+msgid ""
+"The white dot is a mine. When you move near a mine, it explodes with a "
+"powerful 1u-radius blast. Striking a mine while your shields are down will "
+"surely destroy your ship."
+msgstr "Biała kropka to mina. Jeśli okręt zbliży się do miny, powoduje to potężną eksplozję w promieniu 1 u. Uderzenie w minę przy opuszczonych tarczach to niemal pewne zniszczenie okrętu."
+
+#: scripts/tutorial/00_all.lua:44
+msgid ""
+"This large dot is a station. Stations can be several different sizes and "
+"belong to different factions. The dot's color indicates whether the station "
+"is friendly (green), neutral (light blue), or hostile (red)."
+msgstr "Duża kropka to stacja. Stacje mogą mieć różne rozmiary i należeć do różnych frakcji. Kolor kropki wskazuje, że stacja jest przyjazna (zielony), neutralna (jasnoniebieski) lub wroga (czerwony)."
+
+#: scripts/tutorial/00_all.lua:49
+msgid ""
+"The rainbow-colored cloud is a nebula. Nebulae block long-range sensors, "
+"preventing ships from detecting what's inside of them at distances of more "
+"than 5u. Sensors also cannot detect objects behind nebulae."
+msgstr "Ta tęczowa chmura to mgławica. Mgławice zakłócają działanie czujników dalekiego zasięgu, więc okręty nie mogą wykrywać, co się w nich kryje, z odległości większej niż 5 u. Czujniki nie mogą też wykrywać obiektów za mgławicami."
+
+#: scripts/tutorial/00_all.lua:55
+msgid ""
+"Finally, these are ships. They look like you on radar, and their attitude "
+"toward you is reflected by the same colors as stations. In addition to "
+"green, blue, and red, ships of unknown attitude appear as gray objects."
+msgstr "W końcu dochodzimy do okrętów. Na radarze są widoczne podobnie jak wasz okręt, a ich nastawienie określone jest kolorem, tak jak w przypadku stacji kosmicznych. Poza kolorami zielonym, niebieskim i czerwonym okręty o nieznanym nastawieniu są wyświetlane jako szare obiekty."
+
+#: scripts/tutorial/00_all.lua:60
+msgid "Next, we will look at the short-range radar."
+msgstr "Następnie zapoznamy się z radarem krótkiego zasięgu."
+
+#: scripts/tutorial/00_all.lua:62
+msgid ""
+"The short-range radar can detect objects up to 5u from your ship. It also "
+"depicts the range of your own beam weapons.\n"
+"Your ship has 2 beam weapons aimed forward. Each type of ship has different "
+"beam weapon layouts, with different ranges and locations."
+msgstr "Radar krótkiego zasięgu wykrywa obiekty w odległości 5 u od okrętu. Pokazuje również zasięg waszych dział laserowych.\nWasz okręt ma dwa działa laserowe skierowane w przód. Każdy typ okrętu ma inny układ dział, z różnym zasięgiem i rozmieszczeniem."
+
+#: scripts/tutorial/00_all.lua:75
+msgid ""
+"This is the helms screen.\n"
+"As the helms officer, you command your ship's movement in space."
+msgstr "To ekran sterowni.\nJako oficer nawigator dowodzisz ruchami okrętu w przestrzeni kosmicznej."
+
+#: scripts/tutorial/00_all.lua:78
+msgid ""
+"Your primary controls are your impulse engines and maneuvering thrusters.\n"
+"Your impulse controls are on the left side of the screen.\n"
+"\n"
+"Raise your impulse level to 100% to fly forward right now."
+msgstr "Główne elementy sterowania to napęd pulsacyjny i silniki manewrowe.\nElementy sterowania napędu pulsacyjnego znajdują się po lewej stronie ekranu.\n\nZwiększ teraz poziom napędu pulsacyjnego do 100%, aby lecieć do przodu."
+
+#: scripts/tutorial/00_all.lua:83
+msgid ""
+"Good. You now know how to move forward.\n"
+"\n"
+"I've disabled your impulse engine for now. Next, let's rotate your ship.\n"
+"Rotating the ship is easy. Simply press a heading on the radar screen to "
+"rotate your ship in that direction.\n"
+"Try rotating to heading 200 right now."
+msgstr "Dobrze. Teraz wiesz już, jak lecieć do przodu.\n\nWyłączam na chwilę napęd pulsacyjny. Teraz spróbujmy wykonać zwrot okrętem.\nWykonywanie zwrotów jest proste – wystarczy wybrać odpowiedni kurs na ekranie radaru, aby obrócić okręt w tym kierunku.\nSpróbuj teraz wykonać zwrot na kurs 200."
+
+#: scripts/tutorial/00_all.lua:90
+msgid ""
+"Excellent!\n"
+"\n"
+"Next up: docking. Docking with a station recharges your energy, repairs your "
+"hull, and allows the relay officer to request weapon refills. It can also be "
+"important for other mission-related events.\n"
+"To dock, maneuver within 1u of a station and press the \"Request Dock\" "
+"button, from which point docking is fully automated.\n"
+"Maneuver to the nearby station and request permission to dock."
+msgstr "Doskonale!\n\nKolejny punkt: dokowanie. Dokowanie do stacji pozwala uzupełnić energię, naprawić kadłub, a oficer łączności może zwrócić się o uzupełnienie amunicji. Dokowanie może też odgrywać rolę w wydarzeniach związanych ze scenariuszem.\nAby wykonać dokowanie, należy doprowadzić okręt na odległość mniejszą niż 1 u od stacji i nacisnąć przycisk „Zgoda na dokowanie”; od tego momentu dokowanie odbywa się w całości automatycznie.\nZbliż się do najbliższej stacji i zwróć się o pozwolenie na dokowanie."
+
+#: scripts/tutorial/00_all.lua:95
+msgid ""
+"Now that you are docked, your movement is locked. As helms officer, there is "
+"nothing else you can do but undock, so do that now."
+msgstr "Po zadokowaniu okręt nie może wykonywać manewrów. Jako nawigator nie możesz tu zrobić nic poza zakończeniem dokowania; zrób to teraz."
+
+#: scripts/tutorial/00_all.lua:99
+msgid ""
+"Ok, there are just a few more things that you need to know.\n"
+"Remember those beam weapons? As helms officer, it is your task to keep those "
+"beams on your target.\n"
+"I've set up an stationary enemy ship as a target. Destroy it with your beam "
+"weapons. Note that at every shot, the corresponding firing arc will change "
+"color."
+msgstr "Dobrze, jeszcze tylko kilka rzeczy, o których musisz wiedzieć.\nPamiętasz, jak mówiliśmy o działach laserowych? Jako nawigator musisz utrzymywać promienie dział laserowych na celu.\nWidzisz teraz nieruchomy okręt wroga: to twój cel. Zniszcz go działami laserowymi. Pamiętaj, że przy każdym strzale odpowiednie pole ostrzału zmienia kolor."
+
+#: scripts/tutorial/00_all.lua:102
+msgid ""
+"Aggression is not always the solution, but boy, it is fun!\n"
+"\n"
+"On to the next task: moving long distances.\n"
+"There are two methods of moving long distances quickly. Depending on your "
+"ship, you either have a warp drive or a jump drive.\n"
+"The warp drive moves your ship at high speed, while the jump drive instantly "
+"teleports your ship a great distance."
+msgstr "Agresja to nie zawsze najlepsze rozwiązanie, ale za to jakie ekscytujące!\n\nKolejne zadanie: przemieszczanie się na duże odległości.\nSą dwa sposoby, aby szybko pokonać duży dystans. W zależności od rodzaju okrętu może on być wyposażony w hipernapęd lub napęd skokowy.\nHipernapęd pozwala okrętom poruszać się z dużą prędkością, podczas gdy napęd skokowy powoduje natychmiastową teleportację na dużą odległość."
+
+#: scripts/tutorial/00_all.lua:108
+msgid ""
+"First, let us try the warp drive.\n"
+"\n"
+"It functions like the impulse drive but only propels your ship forward, and "
+"consumes energy at a much faster rate.\n"
+"Use the warp drive to move more than 30u away from this starting point."
+msgstr "Najpierw wypróbujmy hipernapęd.\n\nDziała on jak napęd pulsacyjny, ale pozwala poruszać się tylko do przodu i zużywa znacznie więcej energii.\nUżyj hipernapędu, aby przemieścić się o ponad 30 u od tego punktu początkowego."
+
+#: scripts/tutorial/00_all.lua:113
+msgid ""
+"Next, let us demonstrate the jump drive.\n"
+"\n"
+"To use the jump drive, point your ship in the direction where you want to "
+"jump, configure a distance to jump, and then initiate it. The jump occurs 10 "
+"seconds after you initiate. Use the jump drive to jump more than 30u from "
+"this starting point, in any direction."
+msgstr "Teraz zapoznamy się z napędem skokowym.\n\nAby użyć napędu skokowego, zwróć okręt w odpowiednim kierunku, określ odległość skoku, a potem zainicjuj skok. Skok następuje 10 sekund po zainicjowaniu. Użyj napędu skokowego, aby przemieścić się o ponad 30 u od tego punktu początkowego w dowolnym kierunku."
+
+#: scripts/tutorial/00_all.lua:116
+msgid ""
+"Notice how your jump drive needs to recharge after use.\n"
+"\n"
+"This covers the basics of the helms officer."
+msgstr "Zwróć uwagę, że napęd skokowy po użyciu wymaga naładowania.\n\nZnasz już podstawy służby oficera nawigatora."
+
+#: scripts/tutorial/00_all.lua:131
+msgid ""
+"This is the weapons screen.\n"
+"As the weapons officer, you are responsible for targeting beam weapons, "
+"loading and firing missile weapons, and controlling your shields."
+msgstr "To ekran działu uzbrojenia.\nJako oficer uzbrojenia odpowiadasz za celowanie działami laserowymi, ładowanie i salwy pocisków oraz sterowanie tarczami okrętu."
+
+#: scripts/tutorial/00_all.lua:134
+msgid ""
+"Your most fundamental task is to target your ship's weapons.\n"
+"Your beam weapons only fire at your selected target, and homing missiles "
+"travel toward your selected target.\n"
+"\n"
+"Target the ship in front of you by pressing it."
+msgstr "Twoje najważniejsze zadanie to celowanie systemami broni okrętu.\nDziała laserowe strzelają tylko w wybrany cel, a pociski samonaprowadzające kierują się na cel, który im wskażesz.\n\nWyceluj w okręt przed tobą, naciskając go."
+
+#: scripts/tutorial/00_all.lua:138
+msgid ""
+"Good! Notice that your beam weapons did not fire on this ship until you "
+"targeted it.\n"
+"\n"
+"Next up: shield controls."
+msgstr "Dobrze! Zwróć uwagę, że działa laserowe nie strzelały do okrętu, zanim nie został wybrany jako cel.\n\nKolejne zadanie: sterowanie tarczami."
+
+#: scripts/tutorial/00_all.lua:143
+msgid ""
+"As you might notice, you are being shot at. Do not worry, you cannot die "
+"right now.\n"
+"\n"
+"You are taking damage, however, so enable your shields to protect yourself."
+msgstr "Jak pewnie już widzisz, strzelają do ciebie. Nie przejmuj się, na razie nie możesz zginąć.\n\nJednak twój okręt otrzymuje uszkodzenia, więc włącz tarcze, aby się bronić."
+
+#: scripts/tutorial/00_all.lua:158
+msgid ""
+"Shields protect your ship from direct damage, but they cost extra energy to "
+"maintain, can take only a limited amount of damage, and are slow to "
+"recharge. Eventually, this enemy's attacks will get through your shields.\n"
+"\n"
+"Disable your shields to continue."
+msgstr "Tarcze chronią okręt przed bezpośrednimi uszkodzeniami, ale wymagają do działania dodatkowej energii, mogą przyjąć tylko określoną ilość uszkodzeń i wolno się regenerują. Z czasem ataki przeciwnika przebiją się przez twoje tarcze.\n\nWyłącz tarcze, aby kontynuować."
+
+#: scripts/tutorial/00_all.lua:162
+msgid ""
+"While only a single button, your shields are vital for survival. They "
+"protect against all kinds of damage, including beam weapons, missiles, "
+"asteroids, and mines, so make them one of your primary priorities.\n"
+"\n"
+"Next up, the real fun starts: missile weapons."
+msgstr "Chociaż to tylko jeden przycisk, tarcze decydują o przetrwaniu twojego okrętu. Chronią przed wszystkimi przyczynami uszkodzeń, takimi jak działa laserowe, pociski, asteroidy i miny, więc mają priorytetowe znaczenie.\n\nA teraz zaczyna się prawdziwa zabawa: wyrzutnie pocisków."
+
+#: scripts/tutorial/00_all.lua:173
+msgid ""
+"You have 1 homing missile in your missile storage now, and 1 weapon tube.\n"
+"You can load this missile into your weapon tube. Depending on your ship "
+"type, you might have more types of missiles and more weapon tubes.\n"
+"\n"
+"Load this homing missile into the weapon tube by selecting the homing "
+"missile, and then pressing the load button for this tube. Note that it takes "
+"some time to load missiles into tubes."
+msgstr "W komorze amunicyjnej masz jeden pocisk samonaprowadzający - SN, dysponujesz również jedną wyrzutnią.\nMożesz załadować pocisk do wyrzutni. W zależności od typu okrętu możesz mieć więcej typów pocisków i więcej wyrzutni.\n\nZaładuj pocisk samonaprowadzający do wyrzutni, wybierając go, a potem naciskając przycisk ładowania wyrzutni. Zwróć uwagę, że załadunek pocisków do wyrzutni zajmuje trochę czasu."
+
+#: scripts/tutorial/00_all.lua:178
+msgid "Great! Now fire this missile by clicking on the tube."
+msgstr "Świetnie! Teraz wystrzel pocisk, klikając wyrzutnię."
+
+#: scripts/tutorial/00_all.lua:179
+msgid "Missile away!"
+msgstr "Poszło!"
+
+#: scripts/tutorial/00_all.lua:182
+msgid ""
+"BOOM! That was just firing straight ahead, but you can also aim missiles.\n"
+"\n"
+"First, unlock your aim by pressing the [Lock] button above the radar view.\n"
+"Next, aim your missiles with the aiming dial surrounding the radar.\n"
+"Point the aiming dial at the next ship, load a missile, and fire."
+msgstr "BUM! To był strzał na wprost, ale możesz też sterować pociskami.\n\nNajpierw wyłącz namiar celu, naciskając przycisk [Namiar] nad widokiem radaru.\nNastępnie wyceluj pociski przy pomocy obręczy celowania wokół radaru.\nWyceluj tarczą w kolejny okręt, załaduj pocisk i wystrzel."
+
+#: scripts/tutorial/00_all.lua:193
+msgid ""
+"Perfect aim!\n"
+"\n"
+"The next ship is behind you. Target the ship by pressing it to guide your "
+"homing missiles toward your selected target.\n"
+"While not necessary against a stationary target, this homing ability can "
+"make all the difference against a moving target."
+msgstr "Co za oko!\n\nKolejny okręt jest za tobą. Wyceluj w okręt, naciskając go, aby skierować pociski samonaprowadzające na wybrany cel.\nChociaż nie jest to konieczne w przypadku nieruchomego obiektu, zdolność naprowadzania może decydować o trafieniu ruchomego celu."
+
+#: scripts/tutorial/00_all.lua:204
+msgid ""
+"In addition to homing missiles, your ship might have nukes, EMPs, and mines. "
+"Nukes and EMPs have the same features as homing missiles, but have a 1u-"
+"radius blast and do much more damage. EMPs damage only shields, and thus are "
+"great for weakening heavily shielded enemies."
+msgstr "Poza pociskami samonaprowadzającymi okręt może mieć pociski nuklearne, pociski EMP i miny. Pociski nuklearne i EMP działają podobnie jak pociski samonaprowadzające, ale mają promień wybuchu 1 u i powodują znacznie większe uszkodzenia. Pociski EMP eliminują tylko tarcze, więc najlepiej nadają się do osłabiania przeciwników wyposażonych w potężne tarcze."
+
+#: scripts/tutorial/00_all.lua:212
+msgid ""
+"Welcome to engineering.\n"
+"Engineering is split into two parts. The top part shows your ship's "
+"interior, including damage control teams stationed throughout.\n"
+"The bottom part controls power and coolant levels of your ship's systems."
+msgstr "Witamy w maszynowni.\nEkran maszynowni podzielony jest na dwie części. W górnej części pokazano wnętrze okrętu, z rozmieszczonymi w nim ekipami naprawczymi.\nDolna część pozwala kontrolować przydział mocy i chłodzenia do systemów okrętu."
+
+#: scripts/tutorial/00_all.lua:217
+msgid ""
+"First, we will explain your control over your ship's systems.\n"
+"Each row on the bottom area of the screen represents one of your ship's "
+"system, and each system has a damage level, heat level, power level, and "
+"coolant level.\n"
+"\n"
+"I've overheated your warp system. An overheating system can damage your "
+"ship. You can prevent this by putting coolant in your warp system. Select "
+"the warp system and increase the coolant slider."
+msgstr "Najpierw omówimy kontrolę systemów okrętu.\nKażdy wiersz w dolnej części ekranu reprezentuje jeden z systemów okrętu; każdy z nich ma poziom uszkodzeń, poziom ciepła, poziom mocy i poziom chłodzenia.\n\nWystąpiło przegrzanie systemu hipernapędu. Przegrzany system może spowodować uszkodzenia okrętu. Możesz temu zapobiec, kierując chłodzenie do systemu hipernapędu. Wybierz system hipernapędu i zwiększ suwakiem poziom chłodzenia."
+
+#: scripts/tutorial/00_all.lua:222
+msgid ""
+"I've also overheated the impulse system. As before, increase the system's "
+"coolant level to mitigate the effect. Note that the warp system's coolant "
+"level is automatically reduced to allow for coolant in the impulse system.\n"
+"\n"
+"This is because you have a limited amount of coolant available to distribute "
+"this across your ship's systems."
+msgstr "Teraz przegrzałem również system napędu pulsacyjnego. Tak jak przedtem, zwiększ poziom chłodzenia, aby to zneutralizować. Zwróć uwagę, że poziom chłodzenia hipernapędu automatycznie zmniejszył się, aby zapewnić chłodzenie napędu pulsacyjnego.\n\nDzieje się tak dlatego, że okręt ma określoną ilość chłodziwa, które można przekierować do różnych systemów okrętu."
+
+#: scripts/tutorial/00_all.lua:225
+msgid ""
+"Good! Next up: power levels.\n"
+"You can manage each system's power level independently. Adding power to a "
+"system makes it perform more effectively, but also generates more heat, and "
+"thus requires coolant to prevent it from overheating and damaging the "
+"system.\n"
+"\n"
+"Maximize the power to the front shield system."
+msgstr "Dobrze! Kolejny punkt: poziomy mocy.\nMożesz zarządzać poziomem mocy każdego systemu niezależnie. Zwiększenie mocy systemu zwiększa jego efektywność, ale powoduje również wytwarzanie większej ilości ciepła, a więc wymaga więcej chłodzenia, aby nie uległ przegrzaniu i uszkodzeniu.\n\nZwiększ moc systemu tarcz przednich."
+
+#: scripts/tutorial/00_all.lua:229
+msgid ""
+"The added power increases the amount of heat in the system.\n"
+"\n"
+"Overpower the system until it overheats."
+msgstr "Zwiększona moc zwiększa ilość ciepła wytwarzanego przez system.\n\nZwiększ moc systemu tak, aby zaczął się przegrzewać."
+
+#: scripts/tutorial/00_all.lua:234
+msgid ""
+"Note that as the system overheats, it takes damage. Because the system is "
+"damaged, it functions less effectively.\n"
+"\n"
+"Systems can also take damage when your ship is hit while the shields are "
+"down."
+msgstr "Zwróć uwagę, że gdy system się przegrzewa, ulega uszkodzeniom. Ponieważ system jest uszkodzony, działa mniej efektywnie.\n\nSystemy ulegają uszkodzeniom również wtedy, gdy okręt zostanie trafiony przy opuszczonych tarczach."
+
+#: scripts/tutorial/00_all.lua:238
+msgid "In this top area, you see your damage control teams in your ship."
+msgstr "W górnej części ekranu widać ekipy naprawcze pracujące na okręcie."
+
+#: scripts/tutorial/00_all.lua:239
+msgid ""
+"The front shield system is damaged, as indicated by the color of this room's "
+"outline.\n"
+"\n"
+"Select a damage control team from elsewhere on the ship by pressing it, then "
+"press on that room to initiate repairs.\n"
+"(Repairs will take a while.)"
+msgstr "System tarcz przednich uległ uszkodzeniu, jak na to wskazuje kolor obramowania tego pomieszczenia.\n\nWybierz ekipę naprawczą w innej części okrętu, klikając ją, a potem naciśnij to pomieszczenie, aby rozpocząć naprawy.\n(Naprawy zajmują trochę czasu)."
+
+#: scripts/tutorial/00_all.lua:244
+msgid ""
+"Good. Now you know your most important tasks. Next, we'll go over each "
+"system's function in detail.\n"
+"Remember, each system performs better with more power, but performs less "
+"well when damaged. Your job is to keep vital systems running as well as you "
+"can."
+msgstr "Dobrze. Teraz znasz już swoje najważniejsze zadania. Teraz omówimy szczegółowo działanie każdego systemu.\nPamiętaj, że każdy system działa lepiej, gdy jest zasilany większą mocą, i gorzej, gdy jest uszkodzony. Twoim zadaniem jest dopilnować, by wszystkie ważne systemy działały jak najlepiej."
+
+#: scripts/tutorial/00_all.lua:246
+msgid ""
+"Reactor:\n"
+"\n"
+"The reactor generates energy. Adding power to the reactor increases your "
+"energy generation rate."
+msgstr "Reaktor:\n\nReaktor wytwarza energię. Zwiększenie mocy reaktora zwiększa poziom wytwarzanej energii."
+
+#: scripts/tutorial/00_all.lua:249
+msgid ""
+"Beam Weapons:\n"
+"\n"
+"Adding power to the beam weapons system increases their rate of fire, which "
+"causes them to do more damage.\n"
+"Note that every beam you fire adds additional heat to the system."
+msgstr "Działa laserowe:\n\nZwiększenie mocy systemu dział laserowych zwiększa ich szybkostrzelność, dzięki czemu powodują więcej uszkodzeń.\nZwróć uwagę, że każdy strzał działa laserowego zwiększa ciepło w systemie."
+
+#: scripts/tutorial/00_all.lua:253
+msgid ""
+"Missile System:\n"
+"\n"
+"Increased missile system power lowers the reload time of weapon tubes."
+msgstr "System wyrzutni:\n\nZwiększona moc systemu wyrzutni skraca czas ładowania wyrzutni."
+
+#: scripts/tutorial/00_all.lua:256
+msgid ""
+"Maneuvering:\n"
+"\n"
+"Increasing power to the maneuvering system allows the ship to turn faster. "
+"It also increases the recharge rate for the combat maneuvering system."
+msgstr "Silniki manewrowe:\n\nZwiększenie mocy systemu silników manewrowych pozwala na szybsze zwroty okrętu. Zwiększa również tempo regeneracji systemu manewrów bojowych."
+
+#: scripts/tutorial/00_all.lua:259
+msgid ""
+"Impulse Engines:\n"
+"\n"
+"Adding power to the impulse engines increases your impulse flight speed."
+msgstr "Silniki pulsacyjne:\n\nZwiększenie mocy silników pulsacyjnych zwiększa prędkość podczas lotu z wykorzystaniem napędu pulsacyjnego."
+
+#: scripts/tutorial/00_all.lua:262
+msgid ""
+"Warp Drive:\n"
+"\n"
+"Adding power to the warp drive increases your warp drive flight speed."
+msgstr "Hipernapęd:\n\nZwiększenie mocy hipernapędu zwiększa prędkość podczas lotu z wykorzystaniem hipernapędu."
+
+#: scripts/tutorial/00_all.lua:265
+msgid ""
+"Jump Drive:\n"
+"\n"
+"A higher-powered jump drive recharges faster and has a shorter delay before "
+"jumping."
+msgstr "Napęd skokowy:\n\nDuża moc napędu skokowego pozwala na szybsze jego naładowanie i skraca oczekiwanie na skok."
+
+#: scripts/tutorial/00_all.lua:268
+msgid ""
+"Shields:\n"
+"\n"
+"Additional power in the shield system increases their rate of recharge, and "
+"decreases the amount of degradation your shields sustain when damaged."
+msgstr "Tarcze:\n\nWiększa moc systemu tarcz zwiększa tempo ich regeneracji i zwiększa odporność na uszkodzenia."
+
+#: scripts/tutorial/00_all.lua:271
+msgid ""
+"This concludes the overview of the engineering station. Be sure to keep your "
+"ship running in top condition!"
+msgstr "Na tym kończy się omówienie działu maszynowni. Pamiętaj, aby utrzymywać okręt w idealnym stanie!"
+
+#: scripts/tutorial/00_all.lua:279
+msgid ""
+"Welcome, science officer.\n"
+"\n"
+"You are the eyes of the ship. Your job is to supply the captain with "
+"information. From your station, you can detect and scan objects at a range "
+"of up to 30u."
+msgstr "Witaj, oficerze naukowy.\n\nJesteś oczami waszego okrętu. Twoje zadanie to dostarczać kapitanowi informacji. Ze swojego stanowiska możesz wykrywać i skanować obiekty w zasięgu 30 u."
+
+#: scripts/tutorial/00_all.lua:284 scripts/tutorial/00_all.lua:370
+msgid ""
+"On this radar, you can select objects to get information about them.\n"
+"I've added a friendly ship and a station for you to examine. Select them and "
+"notice how much information you can observe.\n"
+"Heading and distance are of particular importance, as without these, the "
+"helms officer will be jumping in the dark."
+msgstr "Na tym radarze możesz wybierać obiekty, aby uzyskać więcej informacji na ich temat.\nDodałem przyjazny okręt i stację, które możesz zbadać. Wybierz je i zwróć uwagę, jakie uzyskasz informacje na ich temat.\nSzczególne znaczenie ma kurs i odległość, gdyż bez nich nawigator będzie poruszał się po omacku."
+
+#: scripts/tutorial/00_all.lua:289 scripts/tutorial/00_all.lua:375
+msgid ""
+"I've replaced the friendly station with an unknown ship. Once you select it, "
+"notice that you know nothing about this ship.\n"
+"To learn about it, you must scan it. Scanning requires you to match your "
+"scanner's frequency bands to your target's.\n"
+"Scan this ship now."
+msgstr "Teraz zastąpiłem przyjazną stację nieznanym okrętem. Gdy go wybierzesz, przekonasz się, że nic o nim nie wiesz.\nAby uzyskać więcej danych, musisz go zeskanować. Skanowanie wymaga zestrojenia pasm częstotliwości skanera z celem.\nZeskanuj teraz ten okręt."
+
+#: scripts/tutorial/00_all.lua:292 scripts/tutorial/00_all.lua:378
+msgid ""
+"Good. Notice that you now know this ship is unfriendly. It might have been a "
+"friendly or neutral ship as well, but until you scanned it, you do not know."
+msgstr "Dobrze. Zauważ, że teraz już wiesz, że jest to okręt nieprzyjaciela. Mógłby to być okręt przyjazny lub neutralny, ale dopóki go nie zeskanujesz, nie będziesz o tym wiedzieć."
+
+#: scripts/tutorial/00_all.lua:293 scripts/tutorial/00_all.lua:379
+msgid ""
+"Note that you have less information about this ship than the friendly ship. "
+"You must perform a deep scan of this ship to acquire more information.\n"
+"A deep scan takes more effort and requires you to align 2 different "
+"frequency bands simultaneously.\n"
+"Deep scan the enemy now."
+msgstr "Zwróć uwagę, że na temat tego okrętu masz mniej informacji niż w przypadku przyjaznego statku. Aby zdobyć więcej danych, musisz wykonać głębokie skanowanie.\nGłębokie skanowanie wymaga więcej wysiłku, gdyż musisz zestroić dwa różne pasma częstotliwości jednocześnie.\nPrzeprowadź głębokie skanowanie okrętu."
+
+#: scripts/tutorial/00_all.lua:296 scripts/tutorial/00_all.lua:382
+msgid ""
+"Excellent. Notice that this took more time and concentration than the simple "
+"scan, so be careful to perform deep scans only when necessary or you could "
+"run out of time."
+msgstr "Doskonale. Zwróć uwagę, że wymaga to więcej czasu i koncentracji niż proste skanowanie, więc staraj się przeprowadzać głębokie skanowanie, tylko gdy jest to niezbędne, gdyż inaczej może ci zabraknąć czasu."
+
+#: scripts/tutorial/00_all.lua:300 scripts/tutorial/00_all.lua:386
+msgid ""
+"Next to the long-range radar, the science station can also access the "
+"science database.\n"
+"\n"
+"In this database, you can look up details on things like ship types, "
+"weapons, and other objects."
+msgstr "Poza radarem dalekiego zasięgu dział naukowy pozwala również przeglądać naukową bazę danych.\n\nW bazie tej można zapoznać się z dodatkowymi informacjami na temat kategorii okrętów, rodzajów broni i innych obiektów."
+
+#: scripts/tutorial/00_all.lua:303 scripts/tutorial/00_all.lua:389
+msgid ""
+"Remember, your job is to supply information. Knowing the location and status "
+"of other ships is vital to your captain.\n"
+"\n"
+"Without your information, the crew is mostly blind."
+msgstr "Pamiętaj, że twoim zdaniem jest dostarczanie informacji. Wiedza na temat położenia i staniu innych okrętów jest kapitanowi absolutnie niezbędna.\n\nBez twoich danych załoga jest oślepiona."
+
+#: scripts/tutorial/00_all.lua:313
+msgid ""
+"Welcome to relay!\n"
+"\n"
+"It is your job to communicate with stations and ships. You also have access "
+"to short-range radar data from friendly ships and stations, and can place "
+"navigational waypoints and launch scanning probes."
+msgstr "Witam w dziale łączności!\n\nZadaniem oficera łączności jest komunikacja ze stacjami i okrętami. Masz również dostęp do danych z radaru krótkiego zasięgu na temat przyjaznych okrętów i stacji, możesz też wyznaczać punkty nawigacyjne i wysyłać sondy skanujące."
+
+#: scripts/tutorial/00_all.lua:316
+msgid ""
+"Your first responsibility is to coordinate the ship's communications.\n"
+"\n"
+"You can target any station or ship and attempt to communicate with it. Other "
+"ships can also attempt to contact you."
+msgstr "Twoim głównym obowiązkiem jest koordynacja komunikacji okrętu.\n\nMożesz wybrać dowolną stację lub okręt i spróbować się z nimi komunikować. Inne okręty mogą też próbować skontaktować się z tobą."
+
+#: scripts/tutorial/00_all.lua:322 scripts/tutorial/00_all.lua:398
+msgid "You successfully opened communications. Congratulations."
+msgstr "Udało ci się otworzyć interfejs komunikacji. Gratulacje."
+
+#: scripts/tutorial/00_all.lua:323 scripts/tutorial/00_all.lua:399
+msgid "Tell me more!"
+msgstr "Chcę wiedzieć więcej!"
+
+#: scripts/tutorial/00_all.lua:324 scripts/tutorial/00_all.lua:400
+msgid "Sorry, there's nothing more to tell you."
+msgstr "Niestety, nic więcej nie mogę ci powiedzieć."
+
+#: scripts/tutorial/00_all.lua:326 scripts/tutorial/00_all.lua:402
+msgid "Continue with the tutorial."
+msgstr "Kontynuuj pracę z samouczkiem."
+
+#: scripts/tutorial/00_all.lua:327 scripts/tutorial/00_all.lua:403
+msgid ""
+"The tutorial will continue when you close communications with this station."
+msgstr "Samouczek zostanie wznowiony, gdy zamkniesz okno komunikacji z tą stacją."
+
+#: scripts/tutorial/00_all.lua:331 scripts/tutorial/00_all.lua:407
+msgid "Open communications with the station near you to continue the tutorial."
+msgstr "Otwórz okno komunikacji z pobliską stacją, aby kontynuować samouczek."
+
+#: scripts/tutorial/00_all.lua:333 scripts/tutorial/00_all.lua:409
+msgid "Now finish your talk with the station."
+msgstr "Teraz zakończ rozmowę ze stacją."
+
+#: scripts/tutorial/00_all.lua:336 scripts/tutorial/00_all.lua:412
+msgid ""
+"Depending on the scenario, you might have different options when "
+"communicating with stations.\n"
+"They might inform you about new objectives and your mission progress, ask "
+"for backup, or resupply your weapons. This is all part of your "
+"responsibilities as relay officer."
+msgstr "W zależności od misji możesz mieć różne możliwości komunikacji ze stacjami.\nMogą one informować o nowych celach i postępach misji, umożliwić wezwanie posiłków oraz uzupełniać amunicję waszego okrętu."
+
+#: scripts/tutorial/00_all.lua:342
+msgid ""
+"Your station also includes this radar map.\n"
+"\n"
+"On this map, you can detect objects within short-range radar range of all "
+"allied ships and stations. Everything else is invisible to you. This gives "
+"you a different view from the science officer, because you can scan the "
+"contents of nebulae."
+msgstr "Twoje stanowisko obejmuje również mapę.\n\nNa niej możesz wykrywać obiekty objęte radarami krótkiego zasięgu wszystkich przyjaznych okrętów i stacji. Wszystko inne jest dla ciebie niewidoczne. Z tego powodu masz inny widok niż oficer naukowy, ponieważ możesz skanować zawartość mgławic."
+
+#: scripts/tutorial/00_all.lua:345
+msgid ""
+"Finally, you control your ship's probes. Probes can expand your radar view. "
+"Launch a probe to the top right, toward the ship designated DMY-01."
+msgstr "Możesz również sterować sondami okrętu. Sondy zwiększają zakres działania radaru. W prawym górnym rogu wyślij sondę do okrętu oznaczonego DMY-01."
+
+#: scripts/tutorial/00_all.lua:356
+msgid ""
+"Probes can expand your sensory capabilities beyond your normal range and "
+"explore nebulae. However, you have a limited supply of them and can't "
+"replenish them until you to dock with a station."
+msgstr "Sondy mogą zwiększać zakres czujników poza normalny zasięg i pozwalają badać mgławice. Jednak dysponujesz ich ograniczoną liczbą i nie możesz ich uzupełniać, dopóki nie zadokujecie do stacji."
+
+#: scripts/tutorial/00_all.lua:365
+msgid ""
+"Welcome, operations officer.\n"
+"\n"
+"You are the eyes of the ship. Your job is to supply the captain with "
+"information. From your station, you can detect and scan objects at a range "
+"of up to 30u."
+msgstr "Witaj, oficerze operacyjny.\n\nJesteś oczami waszego okrętu. Twoje zadanie to dostarczać kapitanowi informacji. Ze swojego stanowiska możesz wykrywać i skanować obiekty w zasięgu 30 u."
+
+#: scripts/tutorial/00_all.lua:392
+msgid ""
+"Your second responsibility is to coordinate the ship's communications.\n"
+"\n"
+"You can target any station or ship and attempt to communicate with it. Other "
+"ships can also attempt to contact you."
+msgstr "Twoim dodatkowym obowiązkiem jest koordynacja komunikacji okrętu.\n\nMożesz wybrać dowolną stację lub okręt i spróbować się z nimi komunikować. Inne okręty mogą też próbować skontaktować się z tobą."
+
+#: scripts/tutorial/00_all.lua:418
+msgid ""
+"This concludes the tutorial. While we have covered the basics, there are "
+"more advanced features in the game that you might discover."
+msgstr "Na tym kończy się samouczek. Chociaż omówiliśmy podstawy, podczas gry możesz odkryć bardziej zaawansowane funkcje."
+
+#: scripts/tutorialUtils.lua:6
+msgid ""
+"Welcome to the EmptyEpsilon tutorial.\n"
+"Note that this tutorial is designed to give you a quick overview of the "
+"basic options for the game, but does not cover every single aspect.\n"
+"\n"
+"Press next to continue..."
+msgstr "Witamy w samouczku Empty Epsilon.\nPamiętaj, że omawia on podstawowe funkcje gry, jednak nie obejmuje każdego jej aspektu.\n\nNaciśnij Dalej, aby kontynuować..."
+
+#~ msgid ""
+#~ "This concludes main screen and radar tutorial. While we have covered the "
+#~ "basics, there are more advanced features in the game that you might "
+#~ "discover."
+#~ msgstr ""
+#~ "Ceci conclut le tutoriel sur l'ecran principal et le radar. Bien que nous "
+#~ "ayons couvert les bases, il existe des fonctions plus avancees que vous "
+#~ "pourrez decouvrir en cours de partie."
+
+#~ msgid ""
+#~ "Ok, there are just a few more things that you need to know.\n"
+#~ "Remember the beam weapons from the basics tutorial? As helms officer, it "
+#~ "is your task to keep those beams on your target.\n"
+#~ "I've set up an stationary enemy ship as a target. Destroy it with your "
+#~ "beam weapons. Note that at every shot, the corresponding firing arc will "
+#~ "change color."
+#~ msgstr ""
+#~ "Nous avons un dernier point a aborder.\n"
+#~ "Vous vous souvenez des armes a faisceau du tutoriel sur les bases ? En "
+#~ "tant qu'officier de navigation, votre tâche est de maintenir ces "
+#~ "faisceaux sur votre cible.\n"
+#~ "J'ai mis en place un vaisseau ennemi stationnaire comme cible. Detruisez-"
+#~ "le avec vos armes a faisceaux. Notez qu'a chaque tir, l'arc de tir "
+#~ "correspondant change de couleur."
