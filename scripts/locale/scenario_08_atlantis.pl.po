@@ -1,0 +1,491 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Empty Epsilon\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-07 19:36+0200\n"
+"Last-Translator: muerteFR\n"
+"Language-Team: muerteFR\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# Scenario name
+msgid "Birth of the Atlantis"
+msgstr "Narodziny Atlantydy"
+
+# Scenario description
+msgid ""
+"You are the first crew of a new and improved version of the Atlantis space "
+"explorer.\n"
+"\n"
+"You must check out ship systems and complete an initial mission.\n"
+"\n"
+"This scenario is limited to one player ship: the Atlantis Atlantis-1."
+msgstr "Jesteście pierwszą załogą nowej, ulepszonej wersji okrętu badawczego typu Atlantis.\n\nMusicie sprawdzić układy okrętu i wykonać pierwszą misję.\n\nDostępny jest tylko jeden okręt: Atlantis-1."
+
+#: scripts/scenario_08_atlantis.lua:159 scripts/scenario_08_atlantis.lua:175
+#: scripts/scenario_08_atlantis.lua:179
+msgctxt "scienceDescription-artifact"
+msgid "An odd object floating in space."
+msgstr "Dziwny obiekt unoszący się w przestrzeni."
+
+#: scripts/scenario_08_atlantis.lua:161
+#, lua-format
+msgctxt "scienceDescription-artifact"
+msgid ""
+"This object is giving off strange readings.\n"
+"Sensor readings:\n"
+"Beta radiation: %i\n"
+"Gravity disruption: %i\n"
+"Ionic phase shift: %i\n"
+"Doppler instability: %i"
+msgstr "Obiekt daje dziwne odczyty.\nOdczyty czujników:\nPromieniowanie beta: %i\nZakłócenia grawitacji: %i\nPrzesunięcie fazy jonowej: %i\nNiestabilność dopplerowska: %i"
+
+#: scripts/scenario_08_atlantis.lua:175 scripts/scenario_08_atlantis.lua:179
+msgctxt "scienceDescription-artifact"
+msgid ""
+"This object seems to be inert, and not giving any interesting readings on "
+"your sensors. The actual object must be somewhere else."
+msgstr "Ten obiekt wydaje się być bierny i nie daje żadnych ciekawych odczytów z czujników. Faktyczny obiekt musi być gdzieś indziej."
+
+#: scripts/scenario_08_atlantis.lua:324
+msgctxt "station-incCall"
+msgid ""
+"Come in, Atlantis-1.\n"
+"\n"
+"Good, your communication systems seems to be working.\n"
+"\n"
+"As you well know, you are aboard the newest version of the Atlantis space "
+"explorer. We will take you through a few quick tests to see if the ship is "
+"operating as expected.\n"
+"\n"
+"First, have your engineer power up all systems to 100%, as you are currently "
+"in powered down mode."
+msgstr "Atlantis-1, zgłoś się.\n\nDobrze, wasz system komunikacyjny wydaje się działać.\n\nJak wiecie, jesteście na pokładzie najnowszej wersji okrętu badawczego Atlantis. Wykonamy z wami kilka szybkich testów, aby przekonać się, czy okręt działa jak należy.\n\nNajpierw niech oficer mechanik ustawi moc wszystkich systemów na 100%, gdyż obecnie jesteście w trybie nieaktywnym."
+
+#: scripts/scenario_08_atlantis.lua:345
+#, fuzzy, lua-format
+msgctxt "station-incCall"
+msgid ""
+"Good, Atlantis-1, we read all systems are go. You can safely undock now.\n"
+"\n"
+"Head to sector %s, where F-1 has dropped missile supplies. Pick them up to "
+"stock up on weapons."
+msgstr "Dobrze, Atlantis-1, odczyty wskazują, że wszystkie systemy działają. Możecie teraz bezpiecznie zakończyć dokowanie.\n\nKierujcie się do sektora %s, gdzie F-1 pozostawił zapasy pocisków. Podejmijcie je, żeby uzupełnić amunicję."
+
+#: scripts/scenario_08_atlantis.lua:361
+msgctxt "station-incCall"
+msgid ""
+"I see you are stocked up on missiles now, Atlantis-1.\n"
+"\n"
+"There are two dummy ships in your vicinity. Before we test your weapon "
+"systems, we should first identify the ships to ensure we destroy the correct "
+"ones.\n"
+"\n"
+"Have your science officer scan the Dummy-1 and Dummy-2 ships to properly "
+"identify them."
+msgstr "Widzę, że macie już pociski, Atlantis-1.\n\nMacie w pobliżu dwa okręty ćwiczebne. Zanim przetestujemy wasze systemy uzbrojenia, powinniśmy najpierw zidentyfikować okręty, aby upewnić się, że zniszczycie właściwe.\n\nNiech oficer naukowy zeskanuje okręty Dummy-1 oraz Dummy-2, aby je zidentyfikować."
+
+#: scripts/scenario_08_atlantis.lua:380
+msgctxt "station-incCall"
+msgid ""
+"Perfect, Atlantis-1. They identify as Kraylor ships because we put fake IDs "
+"in them.\n"
+"\n"
+"Destroy Dummy-1 with your beam weapons, and use a homing missile to take out "
+"Dummy-2.\n"
+"\n"
+"The shields of Dummy-2 are configured so that your beam weapons will not "
+"penetrate them."
+msgstr "Doskonale, Atlantis-1. Identyfikujecie je jako okręty Krayloru, ponieważ umieściliśmy w nich fałszywe transpondery.\n\nZniszczcie Dummy-1 działami laserowymi i użyjcie pocisku samonaprowadzającego, aby zniszczyć Dummy-2.\n\nTarcze Dummy-2 są tak skonfigurowane, że nie można ich naruszyć waszymi działami laserowymi."
+
+#: scripts/scenario_08_atlantis.lua:402
+msgctxt "station-incCall"
+msgid ""
+"Good, all weapons are operational. Atlantis-1 seems to be in perfect "
+"operating condition.\n"
+"\n"
+"When you are ready to take on your first mission, contact us at Shipyard-"
+"Gamma. You can also dock with Supply-6 to resupply."
+msgstr "Dobrze, wszystkie systemy uzbrojenia działają prawidłowo. Atlantis-1 jest w idealnym stanie technicznym.\n\nGdy będziecie gotowi, aby podjąć pierwszą misję, skontaktujcie się z nami w Shipyard-Gamma. Możecie też zadokować do stacji Supply-6, aby uzupełnić zapasy."
+
+#: scripts/scenario_08_atlantis.lua:417
+#, fuzzy, lua-format
+msgctxt "JumpCarrier-incCall"
+msgid "Hold on tight, heading for sector %s."
+msgstr "Trzymajcie się, ruszamy do sektora %s."
+
+#: scripts/scenario_08_atlantis.lua:421
+#, fuzzy, lua-format
+msgctxt "JumpCarrier-incCall"
+msgid ""
+"Atlantis-1,\n"
+"\n"
+"Here we are, sector %s. Looks like there are some lingering Kraylor here.\n"
+"\n"
+"We are outside of the no-fire zone and at war with the Kraylor, so you are "
+"clear to engage.\n"
+"\n"
+"Report back when you have found the source of the odd sensor readings. This "
+"should be a good opportunity to make use of your ship's probes, or your "
+"Science Officer might be able to track it down based on its radar signature."
+msgstr "Atlantis-1,\n\noto sektor %s. Wygląda na to, że są tu jakieś niedobitki Kraylorów.\n\nJesteśmy poza strefą bezpieczeństwa i w stanie wojny z Kraylorem, więc możecie nawiązać walkę.\n\nZgłoście się, gdy odnajdziecie źródło dziwnych odczytów czujników. To powinna być dobra okazja, żeby wykorzystać sondy okrętów, oficer naukowy może też wyśledzić je na podstawie sygnatury radarowej."
+
+#: scripts/scenario_08_atlantis.lua:446
+msgctxt "artifact-comms"
+msgid ""
+"It seems like the artifact is stabilizing.\n"
+"It would be good to get some more readings close to the object, as the "
+"nebula may be causing issues for your sensors."
+msgstr "Wygląda na to, że artefakt się stabilizuje.\nDobrze byłoby uzyskać więcej odczytów w pobliżu obiektu, gdyż mgławica może zakłócać działanie czujników."
+
+#: scripts/scenario_08_atlantis.lua:457
+msgctxt "JumpCarrier-incCall"
+msgid ""
+"Atlantis-1, what is happening?\n"
+"\n"
+"We are reading a huge gravity surge from your direction. Get the hell out of "
+"there."
+msgstr "Atlantis-1, co się dzieje?\n\nOdczytujemy nagły wzrost grawitacji z waszego kierunku. Wynoście się stamtąd!"
+
+#: scripts/scenario_08_atlantis.lua:485
+msgctxt "station-incCall"
+msgid ""
+"Atlantis-1,\n"
+"\n"
+"Come in. Come in. We suddenly read that your position is behind the Kraylor "
+"defense line.\n"
+"\n"
+"Do NOT engage the Kraylor. I repeat, DO NOT ENGAGE."
+msgstr "Atlantis-1,\n\nzgłoś się, zgłoś się! Nasze wskazania nagle informują, że wasza pozycja jest za linią obrony Kraylorów.\n\nNIE nawiązywać walki z Kraylorami. Powtarzam, NIE NAWIĄZYWAĆ WALKI."
+
+#: scripts/scenario_08_atlantis.lua:502
+#, fuzzy, lua-format
+msgctxt "station-incCall"
+msgid ""
+"Atlantis-1, come in.\n"
+"\n"
+"Finally! We thought we lost you. You are not out of the woods yet, though.\n"
+"\n"
+"Try to get to sector %s. We are sending JC88 to get you out of there."
+msgstr "Atlantis-1, zgłoś się.\n\nWreszcie! Już myśleliśmy, że was straciliśmy. Ale to jeszcze nie koniec.\n\nSpróbujcie przedostać się do sektora %s. Wysyłamy JC-88, aby was stamtąd wyciągnął."
+
+#: scripts/scenario_08_atlantis.lua:507
+#, fuzzy, lua-format
+msgctxt "station-incCall"
+msgid ""
+"Atlantis-1, come in.\n"
+"\n"
+"Finally! We thought we lost you. You are not out of the woods yet, though.\n"
+"\n"
+"Search for a hole in the Kraylor defenses, then try to get to sector %s. We "
+"are sending JC88 to get you out of there."
+msgstr "Atlantis-1, zgłoś się.\n\nWreszcie! Już myśleliśmy, że was straciliśmy. Ale to jeszcze nie koniec.\n\nZnajdźcie dziurę w obronie Kraylorów, a potem spróbujcie przedostać się do sektora %s. Wysyłamy JC-88, aby was stamtąd wyciągnął."
+
+#: scripts/scenario_08_atlantis.lua:518 scripts/scenario_08_atlantis.lua:603
+msgctxt "JumpCarrier-incCall"
+msgid "Hold on tight, heading for Shipyard-Gamma."
+msgstr "Trzymajcie się, ruszamy do Shipyard-Gamma."
+
+#: scripts/scenario_08_atlantis.lua:522
+msgctxt "JumpCarrier-incCall"
+msgid ""
+"Welcome home, Atlantis-1.\n"
+"\n"
+"Dock with Supply-6 to recharge and restock, then report to Shipyard-Gamma "
+"for your mission report."
+msgstr "Witajcie w domu, Atlantis-1.\n\nZadokujcie do Supply-6, aby uzupełnić energię i amunicję, a potem zgłoście się do Shipyard-Gamma, aby zdać raport z misji."
+
+#: scripts/scenario_08_atlantis.lua:540
+msgctxt "station-incCall"
+msgid ""
+"Atlantis-1, we've worked through the data you collected on the anomaly that "
+"collapsed into the wormhole.\n"
+"\n"
+"There are traces of both Kraylor and Arlenian technology in there, which "
+"does not make any sense. The Arlenians are a peaceful race, and the Kraylor "
+"are keen on trying to destroy them.\n"
+"\n"
+"We can only assume that the Kraylor stole some kind of advanced technology "
+"from the Arlenians.\n"
+"\n"
+"We've seen an increase in Kraylor transport activity near the Kraylor "
+"defense line. We believe these transports might carry more information "
+"regarding this technology.\n"
+"\n"
+"We're tasking you to head back to the Kraylor defense line, destroy one of "
+"these transports, and recover any cargo that might remain. It could provide "
+"valuable intel.\n"
+"\n"
+"However, do NOT engage any of the Kraylor bases directly. You are not "
+"equipped to handle a full-on assault."
+msgstr "Atlantis-1, przeanalizowaliśmy zebrane przez was dane dotyczące anomalii, która zapadła się w tunel przestrzenny.\n\nStwierdziliśmy ślady techniki zarówno Kraylorów jak i Arlenian, co trochę nie ma sensu. Arlenianie to pokojowo nastawiona rasa, a Kraylorzy próbują ich zniszczyć.\n\nMożemy tylko założyć, że Kraylor wykradł Arlenianom jakąś zaawansowaną technologię.\n\nZauważyliśmy zwiększenie aktywności transportowców Krayloru w pobliżu ich linii obronnej. Uważamy, że transporty mogą zawierać więcej danych dotyczących tej technologii.\n\nWaszym zadaniem jest powrócić na linię obronną Krayloru, zniszczyć jeden z tych transportowców i przechwycić ewentualny pozostały ładunek. Może on nam dostarczyć bezcenne dane wywiadowcze.\n\nJednak NIE atakujcie bezpośrednio żadnej z baz Kraylorów. Nie jesteście przygotowani na frontalny atak."
+
+#: scripts/scenario_08_atlantis.lua:565
+msgctxt "JumpCarrier-incCall"
+msgid "Hold on tight, heading for Kraylor defense line."
+msgstr "Trzymajcie się, ruszamy do linii obronnej Krayloru."
+
+#: scripts/scenario_08_atlantis.lua:569
+msgctxt "JumpCarrier-incCall"
+msgid ""
+"We have arrived. Find the right moment to take out that transport, grab the "
+"cargo, and then dock with us.\n"
+"\n"
+"Expect heavy retaliation as soon as you attack the transport."
+msgstr "Jesteśmy na miejscu. Wybierzcie odpowiedni moment, żeby zniszczyć transportowiec, przechwycić ładunek, a potem zadokować do naszej jednostki.\n\nSpodziewajcie się potężnej akcji odwetowej, gdy zaatakujecie transportowiec."
+
+#: scripts/scenario_08_atlantis.lua:595
+msgctxt "JumpCarrier-incCall"
+msgid ""
+"Return to the carrier IMMEDIATELY. The entire Kraylor fleet is after you. "
+"Whatever you picked up must be valuable."
+msgstr "NATYCHMIAST wracajcie do JC-88. Ściga was cała flota Krayloru. Cokolwiek udało wam się zdobyć, musi być bardzo cenne."
+
+#: scripts/scenario_08_atlantis.lua:607
+msgctxt "station-incCall"
+msgid ""
+"Perfect recovery, Atlantis-1. Seems like the transport was moving highly "
+"encrypted documents.\n"
+"\n"
+"Dock with us and we'll take a shot at cracking them."
+msgstr "Doskonała akcja, Atlantis-1. Wygląda na to, że transportowiec przewoził zaszyfrowane dokumenty.\n\nZadokujcie do naszej jednostki, a my spróbujemy je odczytać."
+
+#: scripts/scenario_08_atlantis.lua:627
+msgctxt "station-incCall"
+msgid ""
+"We are processing the recovered documents. The Kraylor do not excel at "
+"encryption, but this is pretty advanced by their standards.\n"
+"\n"
+"It will take some time to crack this, but we should be successful."
+msgstr "Przetwarzamy zdobyte dokumenty. Kraylorzy nie mają zbyt silnego szyfrowania, ale to dość zaawansowane jak na ich standardy.\n\nZajmie nam to trochę czasu, ale raczej powinno nam się udać."
+
+#: scripts/scenario_08_atlantis.lua:642
+msgctxt "station-incCall"
+msgid ""
+"We've cracked the first part of the documents.\n"
+"\n"
+"It looks like the Kraylor stole some advanced jump drive technology from the "
+"Arlenians, something called a Heisenberg-Einstein bridge, that folds the "
+"fabric of spacetime.\n"
+"\n"
+"This seems to require particles with a negative mass. We're working on "
+"getting more information from these documents. They are a bit of a mess."
+msgstr "Złamaliśmy kod części dokumentów.\n\nWygląda na to, że Kraylorzy skradli Arlenianom jakąś zaawansowaną technologię napędu skokowego, coś, co nazywa się „mostem Heisenberga-Einsteina”, który zagina materię czasoprzestrzeni.\n\nWymaga to chyba cząstek z masą ujemną. Próbujemy wydobyć więcej informacji z tych dokumentów, trochę to zawikłane."
+
+#: scripts/scenario_08_atlantis.lua:660
+msgctxt "station-incCall"
+msgid ""
+"More results from the decryption team.\n"
+"\n"
+"The Arlenians managed to create negative-mass particles. However, the end "
+"result was extremely unstable and could collapse into a black hole at any "
+"second. Stabilizing the particles requires a huge amount of power with "
+"specially formed magnetic fields.\n"
+"\n"
+"In the end, they managed to make long-distance travel possible by opening a "
+"rip in the fabric of spacetime and sending specialized ships through this "
+"tear.\n"
+"\n"
+"We'll keep you updated with more information."
+msgstr "Mamy więcej informacji od zespołu deszyfrującego.\n\nArlenianie zdołali stworzyć cząstki z masą ujemną. Jednak efekt końcowy był skrajnie niestabilny i mógł w każdej chwili zapaść się w czarną dziurę. Stabilizacja cząstek wymaga ogromnej ilości energii oraz specjalnie uformowanych pól magnetycznych.\n\nKoniec końców, udało im się przenosić na dalekie dystanse poprzez rozdarcie w materii czasoprzestrzeni i przesłanie przez nie specjalistycznych statków.\n\nBędziemy was informować na bieżąco."
+
+#: scripts/scenario_08_atlantis.lua:680
+#, fuzzy, lua-format
+msgctxt "station-incCall"
+msgid ""
+"It looks like the Kraylor were watching these experiments and waiting for "
+"their moment to steal the end result.\n"
+"\n"
+"According to these documents, the Kraylor continued the experiments at "
+"sector %s, explaining the phenomenon you experienced there.\n"
+"\n"
+"It looks like they successfully created a working prototype jump drive, but "
+"the documents must have been scrambled here, because they go from mentioning "
+"distances of 2000U to talking about infeasibly large troop counts and "
+"missile storage."
+msgstr "Wygląda na to, że Kraylorzy obserwowali te eksperymenty i czekali na odpowiedni moment, aby skraść ich efekt końcowy.\n\nZgodnie z tymi dokumentami Kraylor kontynuował eksperymenty w sektorze %s, co wyjaśnia zjawisko, które tam zaobserwowaliście.\n\nChyba udało im się zbudować prototyp napędu skokowego, ale dokumenty są tutaj chyba pomieszane, bo w jednej chwili mówią o odległościach 2000 u, a potem zaraz o ogromnych oddziałach wojskowych i magazynach pocisków."
+
+#: scripts/scenario_08_atlantis.lua:694
+msgctxt "station-incCall"
+msgid ""
+"We cracked the final piece of the puzzle.\n"
+"\n"
+"It seems that the Kraylor are constructing a long-range, moving battle "
+"station equipped with unprecedented firepower. The wormhole-powered jump "
+"drive is at the center of this station.\n"
+"\n"
+"While the technology behind the wormhole jump drive isn't stable, the "
+"Kraylor are reckless enough to do this in order to gain a huge tactical "
+"advantage."
+msgstr "Mamy ostatni kawałek układanki.\n\nWygląda na to, że Kraylorzy budują ruchomą stację bojową dalekiego zasięgu o niezrównanej sile ognia. Jej podstawowym elementem jest napęd skokowy wykorzystujący tunel czasoprzestrzenny.\n\nChociaż rozwiązanie tego napędu nie jest stabilne, Kraylorzy są dość lekkomyślni, że są gotowi go wykorzystać, żeby zyskać przewagę taktyczną."
+
+#: scripts/scenario_08_atlantis.lua:709
+msgctxt "station-incCall"
+msgid ""
+"We've just detected a power surge.\n"
+"\n"
+"IT'S THE BATTLE STATION!\n"
+"\n"
+"All hands on deck! Man all combat stations and evacuate all non-essential "
+"personnel! Save what you can!"
+msgstr "Właśnie wykryliśmy skok energii.\n\nTO STACJA BOJOWA!\n\nWszyscy na pokład! Obsadzić wszystkie stanowiska bojowe i ewakuować pozostały personel! Ratować, co się da!"
+
+#: scripts/scenario_08_atlantis.lua:724
+msgctxt "msgMainscreen"
+msgid "Bonus points for destroying the battlestation!"
+msgstr "Gratulacje, zniszczyliście stację bojową!"
+
+#: scripts/scenario_08_atlantis.lua:762
+msgctxt "station-comms"
+msgid "Atlantis-1, are you ready for your first mission?"
+msgstr "Atlantis-1, czy jesteście gotowi na pierwszą misję?"
+
+#: scripts/scenario_08_atlantis.lua:764
+msgctxt "station-comms"
+msgid "Yes."
+msgstr "Tak."
+
+#: scripts/scenario_08_atlantis.lua:766
+#, fuzzy, lua-format
+msgctxt "station-comms"
+msgid ""
+"Good. Your first mission is to identify odd readings coming from the nebula "
+"cloud near sector %s.\n"
+"\n"
+"Your ship is not equipped to travel this distance by itself, so we have "
+"tasked jump carrier JC-88 to take you there.\n"
+"\n"
+"Dock with JC-88 and it will handle the rest."
+msgstr "Dobrze. Wasza pierwsza misja to identyfikacja dziwnych odczytów pochodzących z mgławicy w pobliżu sektora %s.\n\nWasz okręt nie ma odpowiedniego wyposażenia, żeby pokonywać takie odległości, więc zabierze tam was transportowiec skokowy JC-88.\n\nZadokujcie do JC-88, a oni zajmą się resztą."
+
+#: scripts/scenario_08_atlantis.lua:771
+msgctxt "station-comms"
+msgid "No."
+msgstr "Nie."
+
+#: scripts/scenario_08_atlantis.lua:773
+msgctxt "station-comms"
+msgid "Then hail us again when you are ready."
+msgstr "W takim razie skontaktujcie się z nami, gdy będziecie gotowi."
+
+#: scripts/scenario_08_atlantis.lua:783
+msgctxt "station-comms"
+msgid ""
+"Atlantis-1,\n"
+"\n"
+"We've downloaded all the data you collected thanks to the short-range "
+"quantum-entangled data communication radar.\n"
+"\n"
+"We're working through the data and will contact you when we have more "
+"details."
+msgstr "Atlantis-1,\n\npobraliśmy wszystkie dane, które zebraliście, przy użyciu komunikacyjnego radaru kwantowego krótkiego zasięgu.\n\nAnalizujemy te dane i skontaktujemy się z wami, gdy będziemy mieli więcej informacji."
+
+#: scripts/scenario_08_atlantis.lua:793
+msgctxt "station-comms"
+msgid ""
+"Good day, Atlantis-1.\n"
+"\n"
+"Please continue with your current objective."
+msgstr "Dzień dobry, Atlantis-1.\n\nKontynuujcie wykonywanie zadania."
+
+#: scripts/scenario_08_atlantis.lua:807
+msgctxt "JumpCarrier-comms"
+msgid "Jump carrier JC-88 reporting. All system nominal."
+msgstr "Zgłasza się transportowiec JC-88. Wszystkie systemy w normie."
+
+#: scripts/scenario_08_atlantis.lua:811
+msgctxt "artifact-comms"
+msgid "Atlantis-1, did you find the source of the odd sensor readings?"
+msgstr "Atlantis-1, czy znaleźliście źródło dziwnych odczytów?"
+
+#: scripts/scenario_08_atlantis.lua:813
+msgctxt "artifact-comms"
+msgid "Yes."
+msgstr "Tak."
+
+#: scripts/scenario_08_atlantis.lua:815
+msgctxt "artifact-comms"
+msgid ""
+"Great, because our sensor readings are inconclusive. Can you report your "
+"readings to us?\n"
+"\n"
+"First, what is the beta radiation reading?"
+msgstr "Świetnie, bo nasze odczyty czujników są niejasne. Możecie przekazać nam swoje odczyty?\n\nPo pierwsze: jaki jest odczyt promieniowania beta?"
+
+#: scripts/scenario_08_atlantis.lua:822
+msgctxt "artifact-comms"
+msgid "Next, what is the ionic phase shift reading?"
+msgstr "A teraz jaki jest odczyt przesunięcia fazy jonowej?"
+
+#: scripts/scenario_08_atlantis.lua:827
+msgctxt "artifact-comms"
+msgid "Next, what is the gravity disruption reading?"
+msgstr "Jaki jest odczyt zakłóceń grawitacji?"
+
+#: scripts/scenario_08_atlantis.lua:832
+msgctxt "artifact-comms"
+msgid "Finally, what is the doppler instability reading?"
+msgstr "Na koniec: jaki jest odczyt niestabilności dopplerowskiej?"
+
+#: scripts/scenario_08_atlantis.lua:839
+msgctxt "artifact-comms"
+msgid ""
+"Are you sure? Those readings are really off the normal scale.\n"
+"\n"
+"These readings indicate it is very unstable! Please move away from it."
+msgstr "Jesteście pewni? Te odczyty wychodzą poza skalę!\n\nWskazują, że zjawisko jest bardzo niestabilne! Lepiej się stamtąd oddalcie."
+
+#: scripts/scenario_08_atlantis.lua:844
+msgctxt "artifact-comms"
+msgid ""
+"Are you sure? Those readings are really off the normal scale.\n"
+"\n"
+"Can you move close to the object and get a second readings? The nebula might "
+"be interfering with your sensors."
+msgstr "Jesteście pewni? Te odczyty wychodzą poza skalę!\n\nMożecie się zbliżyć do obiektu i uzyskać kolejne odczyty? Być może mgławica zakłóca wasze czujniki."
+
+#: scripts/scenario_08_atlantis.lua:850
+msgctxt "artifact-comms"
+msgid ""
+"Can you confirm your readings and report back? These numbers do not match "
+"our readings at all."
+msgstr "Możecie potwierdzić swoje odczyty? Te dane w ogóle nie zgadzają się z naszymi odczytami."
+
+#: scripts/scenario_08_atlantis.lua:867
+msgctxt "artifact-comms"
+msgid "No."
+msgstr "Nie."
+
+#: scripts/scenario_08_atlantis.lua:869
+msgctxt "artifact-comms"
+msgid ""
+"Then continue looking for it. Try launching some probes or asking the "
+"Science Officer if they notice any odd radar signatures."
+msgstr "Szukajcie dalej. Spróbujcie wysłać sondy albo niech oficer naukowy sprawdzi, czy nie wykrywa dziwnych sygnatur radarowych."
+
+#: scripts/scenario_08_atlantis.lua:891
+#, lua-format
+msgctxt "station-incCall"
+msgid ""
+"(The transmission is loaded with static noise.)\n"
+"\n"
+"%s"
+msgstr "(Transmisja jest pełna zakłóceń).\n\n%s"
+
+#: scripts/scenario_08_atlantis.lua:925
+msgctxt "JumpCarrier-incCall"
+msgid ""
+"Looks like the docking couplers detached prematurely.\n"
+"\n"
+"This happens sometimes. I am on my way so we can try again."
+msgstr "Wygląda na to, że chwytaki dokujące zbyt szybko się odłączyły.\n\nCzasami się to zdarza. Już ruszam, spróbujemy jeszcze raz."
+
+#: scripts/scenario_08_atlantis.lua:944
+msgctxt "shipEnemy-incCall"
+msgid "Surrender yourself, human intruder."
+msgstr "Poddajcie się, intruzi!"
